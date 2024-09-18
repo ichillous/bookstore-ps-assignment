@@ -185,15 +185,36 @@ nav ul li a:hover {
 .pre-footer-container {
     display: grid;
     flex-direction: row;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 2fr 1fr;
     gap: 15px;
     text-align: center;
     margin-bottom: 10px;
 }
+
+/* <!-- COLUMNS --> */
 .center-content {
     display: flex;
     justify-content: space-between;
+    padding: auto;
     width: 100%;
+    flex-wrap: wrap;
+}
+.column-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+.column-content {
+    display: block;
+}
+.column-content ul {
+    list-style: none;
+}
+
+.subcribe-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 footer {
     display: auto; /* Hide footer for this design */
