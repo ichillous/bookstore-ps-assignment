@@ -182,7 +182,7 @@ nav ul li a:hover {
     display: row;
     justify-content: space-evenly;
 }
-.subscribe {
+.pre-footer-container {
     display: grid;
     flex-direction: row;
     grid-template-columns: repeat(4, 1fr);
@@ -190,17 +190,11 @@ nav ul li a:hover {
     text-align: center;
     margin-bottom: 10px;
 }
-.misc {
-    display: block;
+.center-content {
+    display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-right: 36px;
 }
-
-.column {
-    margin-top: 24px;
-}
-
 footer {
     display: auto; /* Hide footer for this design */
     text-align: center;
