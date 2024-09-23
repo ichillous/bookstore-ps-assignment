@@ -4,6 +4,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    margin: 0px;
 }
 
 header {
@@ -196,7 +197,7 @@ nav ul li a:hover {
 /* <!-- COLUMNS --> */
 .center-content {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     padding: auto;
     width: 100%;
     flex-wrap: wrap;
@@ -204,19 +205,41 @@ nav ul li a:hover {
 .column-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     
 }
 .column-content {
     display: block;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .column-content ul {
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .subcribe-form {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+}
+.email {
+    border-radius: 15px 0px 0px 15px;
+    padding: 10px 10px 10px 10px;
+    height: 30px;
+    margin-top: 7px;
+    margin-right: 0px;
+    position: relative;
+}
+.subscribe-button {
+    text-align: center;
+    border-radius: 0px 15px 15px 0px;
+    padding: 10px 10px 10px 10px;
+    height: 30px;
+    margin-top: 10px;
+    position: relative;
+    background-color: #fcb5ac;
+    border: orchid 1px solid;
 }
 footer {
     display: auto; /* Hide footer for this design */
